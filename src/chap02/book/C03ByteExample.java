@@ -1,6 +1,6 @@
 package chap02.book;
 
-public class ByteExample {
+public class C03ByteExample {
 	public static void main(String[] args) {
 		byte var1 = -128;
 		byte var2 = -30;

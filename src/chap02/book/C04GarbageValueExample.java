@@ -1,6 +1,6 @@
 package chap02.book;
 
-public class GarbageValueExample {
+public class C04GarbageValueExample {
 	public static void main(String[] args) {
 		byte var1 = 125;
 		int var2 = 125;
