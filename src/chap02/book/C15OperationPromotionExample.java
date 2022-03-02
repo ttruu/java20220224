@@ -1,6 +1,6 @@
 package chap02.book;
 
-public class C006OperationPromotionExample {
+public class C15OperationPromotionExample {
 	public static void main(String[] args) {
 		byte byteValue1 = 10;
 		byte byteValue2 = 20;
@@ -19,8 +19,7 @@ public class C006OperationPromotionExample {
 		
 		int intValue3 = 10;
 		int intValue4 = intValue3/4;
-		System.out.println(intValue4);
-		// 2
+		System.out.println(intValue4); // 2
 		
 		int intValue5 = 10;
 	//	int intValue6 = 10 / 4.0;
