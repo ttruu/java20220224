@@ -17,17 +17,17 @@ public class E07 {
 			System.out.print("선택 > ");
 			
 			int num1 = scanner.nextInt();
-			int money = 0;
+//			int money = 0;
 
 			if (num1 == 1) {
 				System.out.print("예금액 > ");
-				money = scanner.nextInt();
-				balance += money;
+				balance += scanner.nextInt();
+				//balance += money;
 				
 			} else if (num1 == 2) {
 				System.out.print("출금액 > ");
-				money = scanner.nextInt();
-				balance -= money;
+				balance -= scanner.nextInt();
+				//balance -= money;
 				
 			} else if (num1 == 3) {
 				System.out.println("잔고 > " + balance);
