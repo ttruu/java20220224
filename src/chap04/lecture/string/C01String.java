@@ -14,7 +14,7 @@ public class C01String {
 		System.out.println(str1.substring(2, 4));
 		System.out.println(str1.substring(2));
 		
-//		System.out.println(str1.substring(2, 5));
+//		System.out.println(str1.substring(2, 5)); // 4번째가 없음 
 		System.out.println(str1.length());
 		
 		
