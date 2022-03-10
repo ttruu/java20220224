@@ -19,6 +19,16 @@ public class Exercise08 {
 			}
 		}
 		
+		/*
+		int cnt = 0;
+		for (int[] item : array) {
+			for (int num : item) {
+				sum += num;
+				cnt++;
+			}
+		}
+		 */
+		
 		avg = (double)sum / count;
 		
 		System.out.println("sum: " + sum);
