@@ -1,6 +1,6 @@
 package chap05.book.exercise;
 
-import static org.junit.jupiter.api.DynamicTest.stream;
+//import static org.junit.jupiter.api.DynamicTest.stream;
 
 public class B08ArrayReferenceObjectExample {
 	public static void main(String[] args) {
