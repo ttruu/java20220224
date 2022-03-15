@@ -10,5 +10,14 @@ public class C15ArrayCopy {
 		
 		b[0][0] = 999;
 		System.out.println(a[0][0]);
-	}
+}
+	
+	
+//	int[] a = new int[2];
+//	int[] b = a;
+//	
+//	a[0] = 7;
+//	a[1] = 3;
+//	
+//	System.out.println(b[0]+b[1]);
 }
