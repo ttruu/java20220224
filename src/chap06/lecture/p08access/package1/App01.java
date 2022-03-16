@@ -1,5 +1,5 @@
 package chap06.lecture.p08access.package1;
-
+// computer - access
 public class App01 {
 	public static void main(String[] args) {
 		
