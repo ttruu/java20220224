@@ -1,7 +1,5 @@
 package chap11.book.s110601;
 
-import chap06.book.s060602.*;
-
 public class ClassExample {
 	public static void main(String[] args) {
 		Car car = new Car();
@@ -12,7 +10,7 @@ public class ClassExample {
 		System.out.println();
 		
 		try {
-			Class clazz2 = Class.forName("6장 클래스 Car");
+			Class clazz2 = Class.forName("chap11.book.s110601.Car");
 			System.out.println(clazz2.getName());
 			System.out.println(clazz2.getSimpleName());
 			System.out.println(clazz2.getPackage().getName());
@@ -21,4 +19,5 @@ public class ClassExample {
 		}
 		
 	}
+	
 }
