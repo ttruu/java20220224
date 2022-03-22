@@ -1,6 +1,7 @@
 package chap06.book.s060704;
 
 public class Car {
+	
 	// 필드
 	String company = "현대자동차";
 	String model;
@@ -23,4 +24,6 @@ public class Car {
 		this.color = color;
 		this.maxSpeed = maxSpeed;
 	}
+
+	
 }

@@ -1,6 +1,7 @@
 package chap06.book.s060703;
 
 public class Korean {
+	
 	// 필드
 	String nation = "대한민국";
 	String name;
