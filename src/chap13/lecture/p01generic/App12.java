@@ -2,7 +2,6 @@ package chap13.lecture.p01generic;
 
 import java.util.List;
 
-import com.sun.javafx.collections.IntegerArraySyncer;
 
 public class App12 {
 	public static void main(String[] args) {
