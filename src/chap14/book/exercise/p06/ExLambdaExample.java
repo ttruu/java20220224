@@ -34,7 +34,7 @@ public class ExLambdaExample {
 			new Student("신용권", 95, 93)
 	};
 	
-	// 
+	// avg 메소드 작성하는 문제
 	static double avg(ToIntFunction<Student> f) {
 		double avg = 0.0;
 		
