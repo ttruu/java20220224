@@ -13,11 +13,12 @@ public class HashMapExample1 {
 		map.put("홍길동", 90);
 		map.put("동장군", 80);
 		map.put("홍길동", 95);
-		System.out.println("총 entry 수: "+ map.size());
+		System.out.println("총 entry 수: "+ map.size()); // 저장된 총 entry 수 얻기
 		
-		System.out.println("홍길동" + map.get("홍길동"));
+		System.out.println("홍길동" + map.get("홍길동")); // 키 값으로 점수를 검색
 		System.out.println();
 		
+		// 객체를 하나씩 처리
 		Set<String> keySet = map.keySet();
 		Iterator<String> keyIterator = keySet.iterator();
 		while(keyIterator.hasNext()) {
@@ -27,11 +28,13 @@ public class HashMapExample1 {
 		}
 		System.out.println();
 		
-		map.remove("홍길동");
+		// 객체 삭제
+		map.remove("홍길동"); // Map.Entry를 제거 
 		System.out.println(map.size());
 		
 		System.out.println();
 		
+		// 객체를 하나씩 처리
 		Set<Map.Entry<String, Integer>> entrySet = map.entrySet();
 		Iterator<Map.Entry<String, Integer>> entryIterator = entrySet.iterator();
 		
