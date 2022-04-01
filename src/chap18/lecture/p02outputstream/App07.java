@@ -15,10 +15,11 @@ public class App07 {
 		String out = "output/참조타입01_copy.png";
 		
 		try(InputStream is = new FileInputStream(in);
-				OutputStream os = new FileOutputStream(out)) {
-			byte[] datas = new byte[39299];
+				OutputStream os = new FileOutputStream(out);) {
+			
+			byte[] datas = new byte[1000];
 			int len = 0;
-			while((len = is.read()) != -1) {
+			while((len = is.read(datas)) != -1) {
 				os.write(datas, 0, len);
 			}
 		} catch (IOException e) {
